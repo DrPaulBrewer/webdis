@@ -4,7 +4,7 @@ personal build of webdis from https://github.com/nicolasff/webdis
 
 ##usage
 
-docker run -d --name "cuteName" --link redisActualContainerName:redis -p 127.0.0.1:7379:7379 drpaulbrewer/webdis 
+    docker run -d --name "cuteName" --link redisActualContainerName:redis -p 127.0.0.1:7379:7379 drpaulbrewer/webdis 
 
 ##Dockerfile
 
